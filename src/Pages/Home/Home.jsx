@@ -7,6 +7,7 @@ import Test from '../TestSection/test';
 import AutomaticBusy from '../AutomaticBusySection/AutomaticBusy';
 import Svg from '../../Shared/svg';
 import ManualControl from '../ManualControl/ManualControl';
+import MonoChromicScreen from '../MonoChromicScreen/MonoChromicScreen';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <AutomaticBusy></AutomaticBusy>
             
             <ManualControl></ManualControl>
+            <MonoChromicScreen></MonoChromicScreen>
             <Test></Test>
         </div>
     );
