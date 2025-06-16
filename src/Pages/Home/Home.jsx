@@ -10,6 +10,7 @@ import ManualControl from '../ManualControl/ManualControl';
 import MonoChromicScreen from '../MonoChromicScreen/MonoChromicScreen';
 import IntervalFocusTimer from '../IntervalFocusTime/IntervalFocusTimer';
 import ImageFrameCycle from '../../Shared/ImageFrameCycle';
+import BlockDistractions from '../BlockDistraction/BlockDistractions';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <MonoChromicScreen></MonoChromicScreen>
             <IntervalFocusTimer></IntervalFocusTimer>
             <ImageFrameCycle></ImageFrameCycle>
+            <BlockDistractions></BlockDistractions>
             <Test></Test>
         </div>
     );
