@@ -9,6 +9,7 @@ import Svg from '../../Shared/svg';
 import ManualControl from '../ManualControl/ManualControl';
 import MonoChromicScreen from '../MonoChromicScreen/MonoChromicScreen';
 import IntervalFocusTimer from '../IntervalFocusTime/IntervalFocusTimer';
+import ImageFrameCycle from '../../Shared/ImageFrameCycle';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <ManualControl></ManualControl>
             <MonoChromicScreen></MonoChromicScreen>
             <IntervalFocusTimer></IntervalFocusTimer>
+            <ImageFrameCycle></ImageFrameCycle>
             <Test></Test>
         </div>
     );

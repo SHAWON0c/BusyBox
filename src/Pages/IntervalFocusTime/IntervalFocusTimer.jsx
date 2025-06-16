@@ -20,8 +20,8 @@ const IntervalFocusTimer = () => {
         <p className=" hidden sm:block text-sm sm:text-xl lg:max-w-2xl">
           BUSY Bar is an advanced productivity timer inspired by the Pomodoro technique, which divides work into short intervals — 25-minute work sessions followed by 5-minute breaks.
         </p>
-        <p className='sm:hidden lg:hidden md:hidden'>BUSY Bar is an advanced productivity timer inspired by the Pomodoro technique</p>
-        
+        <p className='sm:hidden lg:hidden md:hidden'>BUSY Bar is an advanced productivity timer inspired by the Pomodoro technique </p>
+
       </div>
     </div>
   );
