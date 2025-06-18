@@ -12,6 +12,7 @@ import IntervalFocusTimer from '../IntervalFocusTime/IntervalFocusTimer';
 import ImageFrameCycle from '../../Shared/ImageFrameCycle';
 import BlockDistractions from '../BlockDistraction/BlockDistractions';
 import PauseScrolling from '../PauseScrolling/PauseScrolling';
+import MuteAllDevices from '../MuteAllDevices/MuteAllDevices';
 
 const Home = () => {
     return (
@@ -28,6 +29,7 @@ const Home = () => {
             <ImageFrameCycle></ImageFrameCycle>
             <BlockDistractions></BlockDistractions>
             <PauseScrolling></PauseScrolling>
+            <MuteAllDevices></MuteAllDevices>
             <Test></Test>
         </div>
     );
